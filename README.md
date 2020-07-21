@@ -1,7 +1,5 @@
 # Elliptic Curve Integrated Encryption Scheme (ECIES)
 
-![img](http://5gblogs.com/wp-content/uploads/2019/05/Capture_FLow-1-1024x611.jpg)
-
 
 
 ## UE侧加密处理流程
@@ -68,7 +66,7 @@ Profile A使用自己的标准化处理生成密钥（RFC 7748 [46]的第6节）
 
 -	Hash												: SHA-256
 
--	SharedInfo1										:  ![img](file:///C:\Users\021600~1\AppData\Local\Temp\ksohtml13384\wps1.png)![img](file:///C:\Users\021600~1\AppData\Local\Temp\ksohtml13384\wps2.jpg)(the ephemeral public key octet string – see [29] section 5.1.3)
+-	SharedInfo1										:  the ephemeral public key octet string – see [29] section 5.1.3
 
 -	MAC												: HMAC–SHA-256
 
@@ -156,7 +154,7 @@ Profile B使用点压缩来节省开销，并应使用椭圆曲线辅助因子Di
 
 -	Hash												: SHA-256
 
--	SharedInfo1										: ![img](file:///C:\Users\021600~1\AppData\Local\Temp\ksohtml13384\wps3.png)![img](file:///C:\Users\021600~1\AppData\Local\Temp\ksohtml13384\wps4.jpg) (the ephemeral public key octet string – see [29] section 5.1.3)
+-	SharedInfo1										: the ephemeral public key octet string – see [29] section 5.1.3
 
 -	MAC												: HMAC–SHA-256
 
